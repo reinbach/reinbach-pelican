@@ -1,0 +1,77 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+
+    /* fonts override */
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+
+    /* background */
+    background: url('../img/ricepaper2.png');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lekton', Helvetica, Arial, sans-serif;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+}
+
+/* color tweak */
+/* #FF7400 */
+/* #FF7940 */
+/* #FF9D73 */
+/* #00AE68 */
+a, a:hover, a:visited {
+    color: #FF7400;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover {
+    background-color: #00AE68;
+}
+
+/* Custom container */
+.container-narrow {
+    margin: 0 auto;
+    max-width: 700px;
+}
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    margin: 60px 0;
+}
+.jumbotron h1 {
+    font-size: 72px;
+    line-height: 1;
+}
+.jumbotron p:nth-of-type(1) {
+    font-size: 21px;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+.jumbotron .article-info {
+    padding-bottom: 30px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 60px 0;
+}
+.marketing p + h4 {
+    margin-top: 28px;
+}
