@@ -51,7 +51,7 @@
           <h4>Latest Posts</h4>
           <ul>
             {% for article in articles[:5] %}
-              <li><a href="{{ SITEURL }}{{ article.slug }}.html">{{ article.title }}</a></li>
+              <li><a href="{{ SITEURL }}/{{ article.slug }}.html">{{ article.title }}</a></li>
             {% endfor %}
           </ul>
 
@@ -70,7 +70,7 @@
             {% if loop.index0 % 4 %}
               &#42;
             {% endif %}
-            <a href="{{ SITEURL}}/{{ tag.url }}">{{ tag }}</a>
+            <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
             {% if not loop.index % 4 %}
               <br />
             {% endif %}
