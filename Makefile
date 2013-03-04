@@ -11,7 +11,7 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=reinbach.com
+SSH_HOST=web1
 SSH_PORT=22
 SSH_USER=greg
 SSH_TARGET_DIR=/opt/sites/reinbach/
