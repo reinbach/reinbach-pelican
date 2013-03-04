@@ -4,7 +4,7 @@ Tags: flask
 Slug: cross-posting-forms-auth-token
 Author: Greg Reinbach
 
-On a follow up to [Cross Posting Forms)]http://www.reinbach.com/blog/cross-posting-forms) I wanted to be able to authenticate the user and decided to make use of an auth token, which would then be set client side and the client would supply it in each subsequent request.
+On a follow up to [Cross Posting Forms](http://www.reinbach.com/blog/cross-posting-forms) I wanted to be able to authenticate the user and decided to make use of an auth token, which would then be set client side and the client would supply it in each subsequent request.
 
 Well that was added simply enough on the client side, but it took me a while to realize why it was not working on the server side of things.
 
