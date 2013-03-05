@@ -4,12 +4,14 @@
 AUTHOR = u'Greg Reinbach'
 SITENAME = u'Reinbach'
 SITEURL = 'http://www.reinbach.com'
+FEED_DOMAIN = SITEURL
 
 TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = u'en'
 
 FILES_TO_COPY = (('extra/robots.txt', 'robots.txt'),)
+ARTICLE_EXCLUDES = (('prelim',))
 
 THEME = 'grandfather'
 TEMPLATE_PAGES = {
