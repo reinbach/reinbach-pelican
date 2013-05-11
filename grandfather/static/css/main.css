@@ -68,6 +68,10 @@ a, a:hover, a:visited {
     padding-bottom: 30px;
 }
 
+code {
+    color: #FF7400;
+}
+
 /* Supporting marketing content */
 .marketing {
     margin: 60px 0;
