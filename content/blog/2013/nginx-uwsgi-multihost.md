@@ -1,5 +1,5 @@
 Title: nginx + uWSGI - Emperor
-Date: 2013-05-09
+Date: 2013-05-11
 Tags: server, nginx, uwsgi
 Slug: nginx-uwsgi-emperor
 Author: Greg Reinbach
