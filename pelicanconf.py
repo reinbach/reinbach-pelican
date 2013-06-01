@@ -18,7 +18,7 @@ TEMPLATE_PAGES = {
     'about.html': 'about.html',
 }
 
-GOOGLE_ANALYTICS = 'UA-16428972-2'
+GOOGLE_ANALYTICS = 'UA-41389534-1'
 
 # Social widget
 SOCIAL = (
