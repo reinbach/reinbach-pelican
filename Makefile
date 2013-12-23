@@ -11,9 +11,9 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=web2
+SSH_HOST=web1
 SSH_PORT=22
-SSH_USER=greg
+SSH_USER=root
 SSH_TARGET_DIR=/opt/sites/reinbach/
 
 DROPBOX_DIR=~/Dropbox/Public/
