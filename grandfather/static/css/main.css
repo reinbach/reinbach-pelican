@@ -33,8 +33,12 @@ a, a:hover, a:visited {
     color: #FF7400;
 }
 
-.nav-pills > .active > a, .nav-pills > .active > a:hover {
-    background-color: #00AE68;
+.navbar h3 {
+    float: left;
+}
+
+.nav > .active > a, .nav > .active > a:hover {
+    font-weight: bold;
 }
 
 /* Custom container */
