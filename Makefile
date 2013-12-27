@@ -16,6 +16,8 @@ SSH_PORT=22
 SSH_USER=root
 SSH_TARGET_DIR=/opt/sites/reinbach/
 
+WEB_PORT = 8090
+
 DROPBOX_DIR=~/Dropbox/Public/
 
 help:
@@ -49,7 +51,7 @@ regenerate: clean
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
-	cd $(OUTPUTDIR) && python -m SimpleHTTPServer
+	cd $(OUTPUTDIR) && python -m SimpleHTTPServer $(WEB_PORT)
 
 devserver:
 	$(BASEDIR)/develop_server.sh restart
