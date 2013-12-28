@@ -102,3 +102,5 @@ Or pass in the file option to use a the `about.html` file
     </html>
 
 Take the above with a grain of salt. I'm just starting out with golang and this is just the solution I came up with that works well for me at the moment. Also note that html/template is an extension of [text/template](http://golang.org/pkg/text/template/), so this should be applicable there as well, so not just limited to html.
+
+Source files can be found at [https://github.com/reinbach/html-template-example](https://github.com/reinbach/html-template-example)
