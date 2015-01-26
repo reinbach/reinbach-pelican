@@ -41,6 +41,11 @@ a, a:hover, a:visited {
     font-weight: bold;
 }
 
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus {
+    background: none;
+    box-shadow: none;
+}
+
 /* Custom container */
 .container-narrow {
     margin: 0 auto;
@@ -82,4 +87,17 @@ code {
 }
 .marketing p + h4 {
     margin-top: 28px;
+}
+
+#copyleft {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    display: inline-block;
+}
+
+/* about buttons */
+.about-links a {
+    color: #fff;
 }
