@@ -30,6 +30,7 @@ The render functioned is tweaked in a couple of ways;
 
 The `UpdateTemplateList` function is used to prepend the full path to the templates.
 
+    #!python
     func UpdateTemplateList(tmpls []string) []string {
          d := GetAbsDir("template", TEMPLATE_DIR)
          for i, v := range tmpls {
